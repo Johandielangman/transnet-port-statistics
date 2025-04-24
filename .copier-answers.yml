@@ -1,0 +1,27 @@
+# Changes here will be overwritten by Copier
+_commit: ecdfa3b
+_src_path: gh:/coderaanalytics-projects/blog-template
+github_public: true
+github_repo_name: transnet-port-statistics
+github_username: Johandielangman
+include_example: false
+include_shape_file: true
+kofi_username: johanlangman
+library_installs:
+- tidyverse
+- ggrepel
+- sf
+- readxl
+project_author: Johandielangman
+project_description: Data Scarping Project that scrapes monthly port statistics from
+    transnet
+project_license: cc-by-sa-4.0
+project_name: Transnet Port Statistics
+python_enabled: true
+python_use_flake8: true
+use_codera_theme: true
+use_conventional_commits: true
+use_font_helper: true
+use_kofi: true
+use_precommit: true
+use_renv: false
