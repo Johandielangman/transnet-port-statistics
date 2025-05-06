@@ -40,3 +40,13 @@ if __name__ == "__main__":
             links=links,
             category=category
         )
+
+    parser: tn.Parser = tn.Parser()
+    for category_dir in c.DOWNLOADS_DIR.iterdir():
+        for year_dir in category_dir.iterdir():
+            for pdf_path in year_dir.iterdir():
+                parser.parse(
+                    category=category_dir.name,
+                    year=year_dir.name,
+                    pdf_path=pdf_path
+                )

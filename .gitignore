@@ -69,3 +69,5 @@ venv*
 
 # further build artifacts
 lockfiles/
+*.csv
+*.zip

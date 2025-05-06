@@ -11,8 +11,9 @@
 # =============== // MODULE IMPORT // ===============
 
 from transnet.crawl import Crawler
-
+from transnet.parse import Parser
 
 __all__ = [
-    Crawler
+    Crawler,
+    Parser
 ]
